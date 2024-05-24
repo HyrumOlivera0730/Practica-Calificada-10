@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 24, 2024 at 11:15 PM
+-- Generation Time: May 25, 2024 at 12:41 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -41,12 +41,12 @@ CREATE TABLE `all_users` (
 --
 
 INSERT INTO `all_users` (`ID`, `name`, `email`, `role`, `profile_picture`, `password`) VALUES
-(2, 'Ana Gómez', 'ana.gomez@example.com', 'Controller', '2ana.jpg', 'password456'),
-(4, 'María Fernández', 'maria.fernandez@example.com', 'Maestro', '4maria.jpg', 'password101112'),
-(5, 'Luis Martínez', 'luis.martinez@example.com', 'Maestro', '5luis.jpg', 'password131415'),
+(2, 'Zoey', 'zoeyLeft4Dead@example.com', 'Maestro', '1716589283644-zoey.jpg', 'ak47+grenade'),
+(5, 'Nick', 'NickLeft4Dead@example.com', 'Controller', '1716589618213-nick.png', 'hacha+botiquin'),
 (6, 'José Maria', 'josemaria@gmail.com', 'Controller', '1716580000898-bill.jpg', 'josemariche147'),
 (9, 'Jonatan', 'jonatan@example.com', 'Supervisor', '1716577657679-ellis.png', 'left4dead'),
-(12, 'Hyrum', 'hyrum@gmail.com', 'Supervisor', '1716578342370-louis.jpg', 'machupichu123');
+(12, 'Hyrum', 'hyrum@gmail.com', 'Supervisor', '1716578342370-louis.jpg', 'machupichu123'),
+(13, 'Rochelle', 'rochelleLeft4Dead@example.com', 'Controller', '1716589100814-rochelle.png', 'matadorZombie');
 
 --
 -- Indexes for dumped tables
