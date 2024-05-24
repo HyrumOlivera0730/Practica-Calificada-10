@@ -19,7 +19,7 @@ export const createUser = async (req, res) => {
   }
 }
 
-// Read (Leer) FUNCIONAA
+// Read (Leer)
 export const getUsers = async (req, res) => {
   try {
     const [rows] = await pool.query('SELECT * FROM all_users')
@@ -34,7 +34,7 @@ export const getUserById = async (req, res) => {
   try {
     const [rows] = await pool.query('SELECT * FROM all_users WHERE ID = ?', [id])
     if (rows.length === 0) {
-      return res.status(404).json({ message: 'User not found' })
+      return res.status(404).json({ message: 'Usuario no encontrado' })
     }
     res.status(200).json(rows[0])
     console.log('Ruta de ver a un empleado GET http://localhost:3000/api/users/:id')
